@@ -1,0 +1,60 @@
+* {
+    font-family: 'Courier New';
+    list-style: none;
+    font-weight: lighter;
+    margin: 10px;
+}
+
+.nav-home-a {
+    display: flex;
+    flex-wrap: nowrap;
+    float: left;
+    width: 20%;
+    background-color: rgb(204, 163, 153);
+    padding: 0px;
+    margin: 5px 5px;
+}
+
+.container-nav, h1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.container-sub-nav { 
+    min-width: 99%;
+}
+
+.container-sub-nav, ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    min-width: 98%;
+}
+
+.container-sub-nav, li {
+    display: inline;
+    float: left;
+    justify-content: center;
+    width: 18%;
+    background-color: rgb(204, 163, 153);
+}
+
+.container-sub-nav, a {
+    padding: 8px;
+    float: left;
+    text-decoration-line: none;
+}
+
+button {
+    padding: 0px;
+    margin: 5px;
+    padding-block: 0px;
+    appearance: none;
+    border-radius: 1px;
+}
+
+.links-a {
+    float: none !important;
+}
